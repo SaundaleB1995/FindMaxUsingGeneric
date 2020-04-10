@@ -34,11 +34,11 @@ public class MaximumNumber<T extends Comparable> {
                 max=option[0];
             }
         }
-        printMaxNumber(max);
+        printMaxNumberFor_Integer_Float_String(max);
         return max;
     }
 
-    private static <T extends Comparable> void printMaxNumber(T max) {
+    private static <T extends Comparable> void printMaxNumberFor_Integer_Float_String(T max) {
         System.out.println(max );
     }
 
